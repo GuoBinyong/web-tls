@@ -1,0 +1,54 @@
+{
+  "name": "web-tls",
+  "version": "0.0.0",
+  "description": "web-tls 提供了 web 中一些常用的工具方法，如：函数式地选择文件、下载文件 等",
+  "main": "dist/web-tls.umd.js",
+  "module": "dist/web-tls.mjs",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "homepage": "https://github.com/GuoBinyong/web-tls#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GuoBinyong/web-tls"
+  },
+  "bugs": {
+    "url": "https://github.com/GuoBinyong/web-tls/issues",
+    "email": "guobinyong@qq.com"
+  },
+  "keywords": [
+    "前端库",
+    "web库",
+    "library",
+    "vite",
+    "vite 模板",
+    "公共代码"
+  ],
+  "author": {
+    "name": "郭斌勇",
+    "email": "guobinyong@qq.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/[^.]*",
+    "types/[^.]*",
+    "docs/[^.]*",
+    "doc/[^.]*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "bunch": "vite build --mode bunch",
+    "preview": "vite preview",
+    "api": "api-extractor run -c api-extractor.jsonc -l -v",
+    "doc": "npm run api ; api-documenter markdown -i ./temp -o doc/api"
+  },
+  "devDependencies": {
+    "@microsoft/api-documenter": "^7.17.15",
+    "@microsoft/api-extractor": "^7.24.1",
+    "build-tls": "^1.3.11",
+    "dts-bundle-generator": "^6.12.0",
+    "package-tls": "^1.3.1",
+    "typescript": "^4.5.4",
+    "vite": "^3.0.9"
+  }
+}

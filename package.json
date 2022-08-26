@@ -1,6 +1,6 @@
 {
   "name": "web-tls",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "web-tls 提供了 web 中一些常用的工具方法，如：函数式地选择文件、下载文件 等",
   "main": "dist/web-tls.umd.js",
   "module": "dist/web-tls.mjs",

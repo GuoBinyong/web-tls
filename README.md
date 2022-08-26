@@ -1,3 +1,7 @@
+
+
+
+
 [教程]: ./doc/教程.md
 [API接口文档]: ./doc/api/index.md
 
@@ -11,25 +15,25 @@
 
 > 目录
 
-- [1. 背景](#1-背景)
-- [2. 简介](#2-简介)
-- [3. 安装方式](#3-安装方式)
-  - [3.1. 方式1：通过 npm 安装](#31-方式1通过-npm-安装)
-  - [3.2. 方式3：通过`<script>`标签引入](#32-方式3通过script标签引入)
-- [4. 教程](#4-教程)
-- [5. API接口文档](#5-api接口文档)
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=true} -->
+
+<!-- code_chunk_output -->
+
+1. [简介](#简介)
+2. [安装方式](#安装方式)
+    1. [方式1：通过 npm 安装](#方式1通过-npm-安装)
+    2. [方式3：通过`<script>`标签引入](#方式3通过script标签引入)
+3. [教程](#教程)
+4. [API接口文档](#api接口文档)
+
+<!-- /code_chunk_output -->
 
 
 
-# 1. 背景
 
-# 2. 简介
-库的简单介绍
 
-**具有以下特性：**  
-- 特性1
-- 特性2
-- 特性3
+# 简介
+web-tls 提供了 web 中一些常用的工具方法，如：函数式地选择文件、下载文件 等
 
 **详情请看：**  
 - 主页：<https://github.com/GuoBinyong/web-tls>
@@ -50,11 +54,11 @@
 
 
 
-# 3. 安装方式
+# 安装方式
 目前，安装方式有以下几种：
 
 
-## 3.1. 方式1：通过 npm 安装
+## 方式1：通过 npm 安装
 ```
 npm install web-tls
 ```
@@ -62,7 +66,7 @@ npm install web-tls
 
 
 
-## 3.2. 方式3：通过`<script>`标签引入
+## 方式3：通过`<script>`标签引入
 您可直接从项目的 [发行地址][] 中下载以 `.iife.js` 作为缀的文件，然后使用如下代码引用 和 使用 web-tls：
 
 
@@ -71,17 +75,17 @@ npm install web-tls
    <script src="path/to/package/web-tls.iife.js"></script>
    ```
    
-2. 使用全局的 `web-tls`
+2. 使用全局的 `WebTls`
    ```
    <script>
-   // 使用全局的 web-tls
+   // 使用全局的 WebTls
    </script>
    ```
 
-# 4. 教程
+# 教程
 详情跳转至[教程][]
 
-# 5. API接口文档
+# API接口文档
 详情跳转至[API接口文档][]
 
 
